@@ -1,8 +1,9 @@
 {
   "name": "remote-input",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,5 +12,8 @@
   "description": "",
   "dependencies": {
     "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "electron": "^30.0.8"
   }
 }
